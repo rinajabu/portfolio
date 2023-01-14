@@ -11,9 +11,9 @@ const Home = (props: Props) => {
       <Head>
         <title>Rina Joy Abu Portfolio</title>
       </Head>
-      
-      <Header />
 
+      <Header />
+      
       <section id="hero" className='snap-start'>
         <Hero />
       </section>
