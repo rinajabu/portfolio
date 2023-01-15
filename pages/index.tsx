@@ -2,6 +2,7 @@ import Head from 'next/head'
 import About from '../components/About'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import WorkExperience from '../components/WorkExperience'
 
 type Props = {}
 
@@ -13,7 +14,7 @@ const Home = (props: Props) => {
       </Head>
 
       <Header />
-      
+
       <section id="hero" className='snap-start'>
         <Hero />
       </section>
@@ -22,7 +23,9 @@ const Home = (props: Props) => {
         <About />
       </section>
 
-      {/* Experience */}
+      <section id="experience" className='snap-center'>
+        <WorkExperience />
+      </section>
 
       {/* Skills */}
 
