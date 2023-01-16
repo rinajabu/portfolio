@@ -15,7 +15,7 @@ const Skill = ({ directionLeft }: Props) => {
                     opacity: 0
                 }}
                 transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                animate={{ opacity: 1, x: 0 }}
                 src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png"
                 alt="tech logo"
             />
