@@ -36,23 +36,23 @@ const ExperienceCard = (props: Props) => {
             <p className='font-bold text-1xl mt-1'>SEMPRE (Secure EMP-Resistant Edge)</p>
             <div className='flex space-x-2 my-2'>
                 <img 
-                    className='h-10 w-10 rounded-full'
+                    className='h-8 w-8 rounded-full'
                     src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" 
                     alt="react logo" 
                 />
                 <img 
-                    className='h-10 w-10 rounded-full'
+                    className='h-8 w-8 rounded-full'
                     src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" 
                     alt="react logo" 
                 />
                 <img 
-                    className='h-10 w-10 rounded-full'
+                    className='h-8 w-8 rounded-full'
                     src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" 
                     alt="react logo" 
                 />
             </div>
-            <p className='uppercase py-5 text-gray-300'>October 2021 - present</p>
-            <ul className='list-disc space-y-4 ml-5 text-lg'>
+            <p className='uppercase py-3 text-gray-300'>October 2021 - present</p>
+            <ul className='list-disc space-y-4 ml-5'>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, vitae.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, vitae.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, vitae.</li>
