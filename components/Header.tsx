@@ -24,8 +24,8 @@ const Header = (props: Props) => {
             }} 
             className='flex flex-row items-center'
         >
-            <SocialIcon url="https://www.linkedin.com/in/rinajoyabu/" fgColor='gray' bgColor='transparent' />
-            <SocialIcon url="https://github.com/rinajabu/" fgColor='gray' bgColor='transparent' />
+            <SocialIcon url="https://www.linkedin.com/in/rinajoyabu/" target="_blank" fgColor='gray' bgColor='transparent' />
+            <SocialIcon url="https://github.com/rinajabu/" target="_blank" fgColor='gray' bgColor='transparent' />
         </motion.div>
         <motion.div 
             onClick={() => (window.location.href = "#contact")}
