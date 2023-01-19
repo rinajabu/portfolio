@@ -17,7 +17,7 @@ type Props = {
 const ExperienceCard = ({jobTitle, company, datesWorked, techUsed, description}: Props) => {
     return (
         <article
-            className='flex flex-col rounded-lg items-center space-between space-y-0 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'
+            className='flex flex-col rounded-lg items-center space-between space-y-0 flex-shrink-0 w-[400px] md:w-[700px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'
         >
             <motion.div
                 initial={{ opacity: 0, y: -100 }}
@@ -32,14 +32,15 @@ const ExperienceCard = ({jobTitle, company, datesWorked, techUsed, description}:
                     { techUsed.map((tech) => (
                         <img 
                             key={tech.name}
-                            className='h-8 w-8 rounded-full'
+                            className='h-8 w-8 rounded-full bg-white'
                             src={tech.src}
                             alt={tech.alt}
+                            title={tech.name}
                         />
                     ))}
                 </div>
                 <p className='uppercase py-3 text-gray-300'>{datesWorked}</p>
-                <div className='space-y-3 md:space-y-4 px-2 overflow-auto h-52 md:h-auto scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#003abf]/40'>
+                <div className='space-y-3 md:space-y-4 px-2 overflow-auto h-56 md:h-auto scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#003abf]/40'>
                     { description.map((item, i) => (
                         <p key={i}>{item}</p>
                     ))}

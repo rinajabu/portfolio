@@ -44,7 +44,8 @@ const Home = (props: Props) => {
         <Contact />
       </section>
 
-      <Link href="#hero">
+      {/* TO TOP BUTTON */}
+      {/* <Link href="#hero">
         <footer className='sticky bottom-32 md:bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-end md:justify-center pr-3 md:pr-0'>
             <img 
@@ -54,7 +55,7 @@ const Home = (props: Props) => {
             />
           </div>
         </footer>
-      </Link>
+      </Link> */}
     </div>
   )
 }

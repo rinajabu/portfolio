@@ -26,15 +26,40 @@ function WorkExperience({}: Props) {
                 alt: "react logo"
               },
               {
+                name: "redux",
+                src: "/tech/redux.png",
+                alt: "redux logo"
+              },
+              {
                 name: "nextjs",
                 src: "/tech/nextjs.png",
                 alt: "nextjs logo"
+              },
+              {
+                name: "python",
+                src: "/tech/python.png",
+                alt: "python logo"
+              },
+              {
+                name: "flask",
+                src: "/tech/flask.png",
+                alt: "flask logo"
+              },
+              {
+                name: "mysql",
+                src: "/tech/mysql.png",
+                alt: "mysql logo"
+              },
+              {
+                name: "redis",
+                src: "/tech/redis.png",
+                alt: "redis logo"
               },
             ]} 
             description={[
               "- Leveraged React.js/Redux to build the frontend of our internal web management application",
               "- Leveraged Python/Flask and SQLAlchemy to build the backend REST API",
-              "- Leveraged MySQL and Redis to manage, store, and send data between systems",
+              "- Leveraged MySQL and Redis to cache and send data between systems",
               "- Migrated customer facing company sites to our Github code base using Next.js, SASS, and Bootstrap, tested code using Cypress"
             ]} 
           />
@@ -44,9 +69,44 @@ function WorkExperience({}: Props) {
             datesWorked={'June 2021 - September 2021'} 
             techUsed={[
               {
+                name: "javascript",
+                src: "/tech/javascript.png",
+                alt: "javascript logo"
+              },
+              {
+                name: "html",
+                src: "/tech/html.png",
+                alt: "html logo"
+              },
+              {
+                name: "css",
+                src: "/tech/css.png",
+                alt: "css logo"
+              },
+              {
                 name: "react",
                 src: "/tech/react.png",
                 alt: "react logo"
+              },
+              {
+                name: "nodejs",
+                src: "/tech/nodejs.png",
+                alt: "nodejs logo"
+              },
+              {
+                name: "express",
+                src: "/tech/express.png",
+                alt: "express logo"
+              },
+              {
+                name: "mongodb",
+                src: "/tech/mongodb.png",
+                alt: "mongodb logo"
+              },
+              {
+                name: "python",
+                src: "/tech/python.png",
+                alt: "python logo"
               },
             ]} 
             description={[
