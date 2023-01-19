@@ -22,44 +22,44 @@ function WorkExperience({}: Props) {
             techUsed={[
               {
                 name: "react",
-                src: "/tech/react.png",
+                src: "/tech/react.svg",
                 alt: "react logo"
               },
               {
                 name: "redux",
-                src: "/tech/redux.png",
+                src: "/tech/redux.svg",
                 alt: "redux logo"
               },
               {
                 name: "nextjs",
-                src: "/tech/nextjs.png",
+                src: "/tech/nextjs.svg",
                 alt: "nextjs logo"
               },
               {
                 name: "python",
-                src: "/tech/python.png",
+                src: "/tech/python.svg",
                 alt: "python logo"
               },
               {
                 name: "flask",
-                src: "/tech/flask.png",
+                src: "/tech/flask.svg",
                 alt: "flask logo"
               },
               {
                 name: "mysql",
-                src: "/tech/mysql.png",
+                src: "/tech/mysql.svg",
                 alt: "mysql logo"
               },
               {
                 name: "redis",
-                src: "/tech/redis.png",
+                src: "/tech/redis.svg",
                 alt: "redis logo"
               },
             ]} 
             description={[
               "- Leveraged React.js/Redux to build the frontend of our internal web management application",
               "- Leveraged Python/Flask and SQLAlchemy to build the backend REST API",
-              "- Leveraged MySQL and Redis to cache and send data between systems",
+              "- Leveraged MySQL and Redis to store, cache, and send data between systems",
               "- Migrated customer facing company sites to our Github code base using Next.js, SASS, and Bootstrap, tested code using Cypress"
             ]} 
           />
@@ -70,42 +70,42 @@ function WorkExperience({}: Props) {
             techUsed={[
               {
                 name: "javascript",
-                src: "/tech/javascript.png",
+                src: "/tech/javascript.svg",
                 alt: "javascript logo"
               },
               {
                 name: "html",
-                src: "/tech/html.png",
+                src: "/tech/html.svg",
                 alt: "html logo"
               },
               {
                 name: "css",
-                src: "/tech/css.png",
+                src: "/tech/css.svg",
                 alt: "css logo"
               },
               {
                 name: "react",
-                src: "/tech/react.png",
+                src: "/tech/react.svg",
                 alt: "react logo"
               },
               {
                 name: "nodejs",
-                src: "/tech/nodejs.png",
+                src: "/tech/nodejs.svg",
                 alt: "nodejs logo"
               },
               {
                 name: "express",
-                src: "/tech/express.png",
+                src: "/tech/express.svg",
                 alt: "express logo"
               },
               {
                 name: "mongodb",
-                src: "/tech/mongodb.png",
+                src: "/tech/mongodb.svg",
                 alt: "mongodb logo"
               },
               {
                 name: "python",
-                src: "/tech/python.png",
+                src: "/tech/python.svg",
                 alt: "python logo"
               },
             ]} 

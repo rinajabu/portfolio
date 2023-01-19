@@ -32,7 +32,7 @@ const ExperienceCard = ({jobTitle, company, datesWorked, techUsed, description}:
                     { techUsed.map((tech) => (
                         <img 
                             key={tech.name}
-                            className='h-8 w-8 rounded-full bg-white'
+                            className='p-1 h-8 w-8 rounded-xl bg-gray-200'
                             src={tech.src}
                             alt={tech.alt}
                             title={tech.name}
