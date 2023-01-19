@@ -11,7 +11,7 @@ const Hero = (props: Props) => {
         words: [
             "Hi, my name is Rina", 
             "I build web based solutions",
-            "Welcome to my portfolio"
+            "Take a look around"
         ],
         loop: true,
         delaySpeed: 1500,
