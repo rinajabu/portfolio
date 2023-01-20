@@ -10,14 +10,14 @@ type Props = {
         name: string,
         src: string,
         alt: string
-    }[]
+    }[],
     description: string[]
 }
 
 const ExperienceCard = ({jobTitle, company, datesWorked, techUsed, description}: Props) => {
     return (
         <article
-            className='flex flex-col rounded-lg items-center space-between space-y-0 flex-shrink-0 w-[400px] md:w-[700px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'
+            className='flex flex-col rounded-lg items-center mx-auto space-between space-y-0 flex-shrink-0 w-[400px] md:w-[700px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-90 overflow-hidden'
         >
             <motion.div
                 initial={{ opacity: 0, y: -100 }}

@@ -9,7 +9,7 @@ const projects_data = [
     {
         name: "Pokemon App",
         projectUrl: "https://distracted-goodall-b55e3c.netlify.app/",
-        description: "A web app in which users can play a pokemon simulation adventure. Used HTML and CSS to create the UI for the application. Used AJAX to retrieve data from Pokemon API and from Weather API. Used jQuery and JavaScript to do DOM and CSS manipulation to create the immersive experience",
+        description: "A web app in which users can play an immersive Pokémon experience. Used HTML and CSS to create the UI. Used AJAX to retrieve data from Pokemon API and from Weather API. Used jQuery and JavaScript to do DOM and CSS manipulation.",
         src: "/projects/pokemon-app.png",
         alt: "screenshot of Pokemon application"
     },
