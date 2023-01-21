@@ -41,10 +41,10 @@ const experience_data = [
             },
         ],
         description: [
-            "- Leveraged React.js/Redux to build the frontend of our internal web management application",
-            "- Leveraged Python/Flask and SQLAlchemy to build the backend REST API",
-            "- Leveraged MySQL and Redis to store, cache, and send data between systems",
-            "- Migrated customer facing company sites to our Github code base using Next.js, SASS, and Bootstrap, tested code using Cypress"
+            "- Developed a system monitoring and management application for our technology, which has been used in customer product demonstrations to facilitate investment ventures",
+            "- Designed and helped architect new features and improvements for existing software, increasing overall product marketability",
+            "- Migrated and deployed commercial company websites to our Github code base, reducing hosting and maintenance costs by 90%",
+            "- Worked in an Agile software development environment to prioritize work based on product release requirements"
         ]
     },
     {
@@ -94,7 +94,7 @@ const experience_data = [
             },
         ],
         description: [
-            "- Three-month, 500-hour full-time and full-stack program conducted in a remote setting, gaining experience with the latest front- and back-end programming languages, tools, and methodologies including: HTML, CSS, JavaScript, ReactJS, Node, MongoDB/Mongoose, Express, SQL, Python, Django, Git, Github, and Agile/Scrum."
+            "- Three-month, 500-hour full-time and full-stack program conducted in a remote setting, gaining experience with the latest front- and back-end programming languages, tools, and methodologies."
         ]
     }
 ]
