@@ -28,7 +28,7 @@ const Project = ({ index, project }: Props) => {
             <div className='space-y-5 px-0 xl:px-10 max-w-6xl'>
                 <h4 className='text-2xl md:text-4xl font-semibold text-center'>
                     <span>Project {index + 1} of {projects_data.length}:</span>{" "}
-                    <a className='text-gray-300 underline decoration-[#003abf]/50 block' href={project.projectUrl} target="_blank" rel="noreferrer">{project.name}</a>
+                    <a className='underline decoration-[#003abf] block' href={project.projectUrl} target="_blank" rel="noreferrer">{project.name}</a>
                 </h4>
                 <p className='md:text-lg text-center xl:text-left'>{project.description}</p>
             </div>
